@@ -1,0 +1,131 @@
+.error-message {
+  color: red;
+}
+
+
+input[type=text], select, textarea {
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+  }
+
+  input[type=password], select, textarea {
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    width: 100%; 
+    padding: 12px;
+  }
+  
+  
+  input[type=submit] {
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 12px 20px;
+    border: none;
+    background-color: green;
+  }
+  
+  input[type=submit]:hover {
+    background-color: green;
+  }
+  
+  .container {
+    border-radius: 5px;
+    
+    padding: 20px;
+  }
+  
+#opening-header{
+    background-color: #307dca;
+    color: #fff;
+    text-align: center;
+    padding:40px;
+    margin-bottom:20px;
+}
+
+#review_form {
+  width: 40%;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+} 
+
+label {
+  font-weight:700;
+  margin-bottom:1%;
+}
+
+input {
+  margin-bottom:1%;
+}
+
+#product {
+  margin-bottom:1%;
+}
+
+.rating {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  display:flex;
+}
+
+.rating input {
+  display:none;
+}
+
+.rating label {
+  display:block;
+  cursor:pointer;
+  width:50px;
+  background:#ccc;
+  margin-bottom:10px;
+}
+
+.rating label:before {
+  font-family:"fontAwesome"; font-weight:400; content:"\f005";
+  position: relative;
+  display:block;
+  font-size:50px;
+  color:#101010;
+}
+
+.rating label:after {
+  font-family:"fontAwesome"; font-weight:400; content:"\f005";
+  position: absolute;
+  display:block;
+  font-size:12px;
+  color:#1f9cff;
+  top:0;
+  opacity:1;
+}
+
+.container #review_form {
+    margin-bottom:20px;
+}
+
+#wrong-details {
+    display: none;
+    border: 1px solid red;
+    color: red;
+    text-align: center;
+}
+
+#header_login {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 300px;;
+}
+
+

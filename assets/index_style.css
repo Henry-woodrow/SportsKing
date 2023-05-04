@@ -1,0 +1,301 @@
+#navbar {
+    margin:0;
+}
+
+#logo {
+    margin-left:15px;
+}
+
+.nav-link {
+    justify-content:center;
+}
+
+
+#link {
+    list-style:none;
+    margin:0px 20px;
+    font-size:25px;
+    font-weight:700;
+    justify-content: center;
+}
+
+#link-symbol {
+    margin-bottom:7px;
+    margin-left:20px;
+}
+
+#cart {
+    margin:0 20px;
+    text-align:right;
+}
+
+#search-bar {
+    margin-right:50px;
+}
+
+svg {
+    margin-left:20px;
+}
+
+#jumbotron-1-heading {
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    margin-top:10px;
+}
+
+#jumbotron_image {
+    height:15%;
+}
+
+/* Button on image */
+
+.carousel-inner {
+    margin-bottom:0px;
+}
+
+.centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    color: green;
+    font-family: 'Bebas Neue', cursive;
+    transform: translate(-50%, -50%);
+  }
+
+  #run-text {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    color: black;
+    font-size:60px;
+    font-family: 'Archivo Black', sans-serif;
+    transform: translate(-50%, -50%);
+  }
+
+  #win-text {
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    color: blue;
+    font-size:60px;
+    font-family: 'Archivo Black', sans-serif;
+    transform: translate(-50%, -50%);
+  }
+
+  #lebron-button {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: gray;
+    color: white;
+    font-size: 35px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  #lebron-text {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    color: #ADD8E6;
+    font-size:60px;
+    font-family: 'Archivo Black', sans-serif;
+    transform: translate(-50%, -50%);
+  }
+
+  .carousel-item .btn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: gray;
+    color: white;
+    font-size: 35px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  #win-button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: gray;
+    color: white;
+    font-size: 35px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  
+  .carousel-item .btn:hover {
+    background-color: black;
+  }
+
+#below {
+    text-align:center;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#member-register {
+  background: yellow;
+  margin:0;
+}
+
+.w3-card {
+    margin:0 40px;
+}
+
+#kids-section {
+    margin: 0 20px;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 80;
+  color: black;
+  font-size:32px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+#opening-header {
+  background-color: #307dca;
+  color: #fff;
+  text-align: center;
+  padding:40px;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  
+}
+
+.card {
+  position: relative;
+  margin-bottom:20px;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .card-overlay {
+  opacity: 1;
+}
+
+.card-overlay-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.btn-primary {
+  float:right;
+}
+
+
+
+p {
+  font-size: 30px;
+  font-weight:700;
+}
+
+.card:hover .main-img {
+  display: none;
+}
+
+.card .hover-img {
+  display: none;
+}
+
+.card:hover .hover-img {
+  display: block;
+}
+
+#size {
+  margin-bottom:10px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media a {
+  margin: 0 10px;
+  font-size: 120px;
+  color: #333;
+}
+
+.social-media a:hover {
+  color: #3b5998;
+}
+
+.thumbnail img {
+  width: 90%;
+  margin: 20px 5%;
+}
+
+.thumbnail {
+  position: relative;
+  display: inline-block;
+}
+
+.text-block {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  margin-top: 50px;
+}
+
+
+
